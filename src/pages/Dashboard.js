@@ -30,7 +30,7 @@ function Dashboard() {
       .then((response) => {
         console.log("RESPONSE>>>", response.data);
         setCoins(response.data);
-        setPaginatedCoins(response.data.slice(0, 10));
+        setPaginatedCoins(response.data.slice(0, 9));
         setLoading(false);
       })
       .catch((error) => {

@@ -48,7 +48,7 @@ function MainComponent() {
           <RWebShare
             data={{
               text: "CryptoDashboard .",
-              url: "https://tracker-omega-six.vercel.app/",
+              url: "https://cryptotrackerkushal.vercel.app/",
               title: "CryptoTracker.",
             }}
             onClick={() => toast.info("App Shared!")}
